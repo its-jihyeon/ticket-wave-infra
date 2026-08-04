@@ -1,8 +1,15 @@
+# Ticket Wave — Infra
+### EKS 기반 고가용성 티켓팅 서비스
+
+> 이 저장소는 멋쟁이사자처럼 AWS DevOps 과정 팀 프로젝트(5인)의 fork 입니다.
+> 원본 저장소 : [팀 레포 URL]
+> 본 README는 담당 영역을 중심으로 재작성했습니다.
+
 * 📦 **App 레포** : [team5-ticket-app](https://github.com/CLD-05/team5-ticket-app)
 * ⚙️ **Config 레포** : [team5-ticket-config](https://github.com/CLD-05/team5-ticket-config)
 * 🛠️ **Infra 레포** : [team5-ticket-infra](https://github.com/CLD-05/team5-ticket-infra)
 
-# Ticket Infrastructure
+# Ticket Wave
 
 ## 1. 개요
 
