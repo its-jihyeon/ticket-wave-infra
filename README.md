@@ -47,7 +47,7 @@
   → aws-auth ConfigMap 대신 선택한 이유 : 직접 편집 시 오타·권한 누락으로 클러스터 접근 불가 장애가 발생할 수 있어, AWS 관리형 API인 AccessEntry로 대체해 설정 오류 위험 제거
 - SSM Session Manager 기반 Bastion 구성 (SSH 포트 미개방)
 - Pod Identity로 Pod 단위 최소 권한 IAM Role 매핑
-- 관련 코드 : `modules/eks/eks-access.tf`, `modules/eks/iam.tf`
+- 관련 코드 : `modules/eks/access_entry.tf`, `modules/eks/iam.tf`
 
 <br>
 
