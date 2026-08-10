@@ -56,5 +56,15 @@
 
 <br>
 
+## 트러블슈팅
+### [Bastion & EKS 접근 제어]
+- 상황 : SSM으로 Bastion EC2 접속은 정상이나 kubectl 명령어 입력 시 인증 거부 발생
+- 원인 분석 : EKS 보안 그룹에서 443 포트가 열려 있었고, Terraform 코드 리뷰 중 Bastion IAM Role을 EKS 클러스터에 매핑하는 aws_eks_access_entry 및 policy_association 코드가 누락된 것을 발견
+- 시도한 방법 : EKS 보안 그룹 인바운드 허용 여부 확인 → Terraform 코드 전체 리뷰
+- 최종 해결 : 누락된 aws_eks_access_entry 및 policy_association 코드 작성하여 Bastion IAM Role을 EKS에 매핑
+- 배운 점 : 인프라 구성 시 리소스 간 연결 고리가 누락되는 실수를 통해 코드 리뷰의 중요성을 깊이 체감
+
+<br>
+
 ## 기술 스택
 AWS (EKS, RDS, IAM, SSM) · Terraform · Redis · Java
