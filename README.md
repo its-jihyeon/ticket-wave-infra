@@ -35,7 +35,7 @@
 <img width="1560" height="1611" alt="image" src="https://github.com/user-attachments/assets/9546c58b-5cd4-4d46-ac32-9a695be87b31" />
 
 ### Prod 아키텍처
-<img width="16384" height="15244" alt="prod" src="https://github.com/user-attachments/assets/be2d14a2-ffd1-457e-a008-899f053e927c" />
+<img width="16384" height="15244" alt="prod" src="https://github.com/user-attachments/assets/550ab87f-0194-497b-93c9-4d7a60252fdc" />
 
 <br>
 <br>
